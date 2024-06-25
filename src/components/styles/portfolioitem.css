@@ -1,0 +1,29 @@
+.portfolio-item {
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.portfolio-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portfolio-title {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio-item-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
