@@ -20,10 +20,10 @@ const PortfolioItem = ({
       </div>
       <h3 className="portfolio-title">{title}</h3>
       <div className="portfolio-item-buttons">
-        <a href={gitlink} className="btn">
+        <a href={gitlink} target="_blank" className="btn">
           Github
         </a>
-        <a href={prevlink} className="btn btn-primary">
+        <a href={prevlink} target="_blank" className="btn btn-primary">
           Live Preview
         </a>
       </div>
