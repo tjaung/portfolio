@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import React from "react";
 
 interface interfaceCardItem {
   icon: ReactNode;
@@ -7,7 +6,7 @@ interface interfaceCardItem {
   desc: string;
 }
 
-const ExpCard = ({ icon, title, desc }: interfaceCardItem) => {
+const ExpCard = ({ title, desc }: interfaceCardItem) => {
   return (
     <div className="card">
       <article className="card-content">

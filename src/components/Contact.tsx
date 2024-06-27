@@ -1,21 +1,23 @@
-import React from "react";
 import "./styles/contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneVolume } from "react-icons/fa6";
 
-import { useRef } from "react";
+// import { useRef } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const form = useRef();
+  // const form = useRef();
 
   const sendEmail = (e: any) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("portfolio_form", "template_whbvcqh", form.current, {
-        publicKey: "ra92t-OakLPQvtQpq",
-      })
+      .sendForm(
+        "portfolio_form",
+        "template_whbvcqh",
+        e.currentTarget,
+        "ra92t-OakLPQvtQpq"
+      )
       .then(
         () => {
           console.log("SUCCESS!");
@@ -24,6 +26,7 @@ const Contact = () => {
           console.log("FAILED...", error.text);
         }
       );
+    e.currentTarget.reset();
   };
 
   return (
@@ -47,7 +50,7 @@ const Contact = () => {
           <a></a>
         </div>
 
-        <form ref={form}>
+        <form onSubmit={sendEmail}>
           <input type="name" placeholder="Your name" required />
           <input type="email" name="email" placeholder="Your email" required />
           <textarea
@@ -56,11 +59,7 @@ const Contact = () => {
             placeholder="Your message here"
             required
           ></textarea>
-          <button
-            type="submit"
-            className="btn btn-primary"
-            onSubmit={sendEmail}
-          >
+          <button type="submit" className="btn btn-primary">
             Submit
           </button>
         </form>

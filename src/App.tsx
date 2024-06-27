@@ -23,11 +23,11 @@ function App() {
       };
       // console.log(observable);
       const pos = {
-        home: observable.home.getBoundingClientRect(),
-        about: observable.about.getBoundingClientRect(),
-        portfolio: observable.portfolio.getBoundingClientRect(),
-        experience: observable.experience.getBoundingClientRect(),
-        contact: observable.contact.getBoundingClientRect(),
+        home: observable.home!.getBoundingClientRect(),
+        about: observable.about!.getBoundingClientRect(),
+        portfolio: observable.portfolio!.getBoundingClientRect(),
+        experience: observable.experience!.getBoundingClientRect(),
+        contact: observable.contact!.getBoundingClientRect(),
       };
 
       if (pos.home.top < window.innerHeight && pos.home.bottom >= 0) {

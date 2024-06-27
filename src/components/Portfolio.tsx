@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/portfolio.css";
 
 import PortfolioItem from "./PortfolioItem";

@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderSocials from "./HeaderSocials";
 
 import "./styles/footer.css";
