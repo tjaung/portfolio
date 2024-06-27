@@ -45,7 +45,7 @@ const Portfolio = () => {
           image={portfolioImg}
           title="Portfolio"
           desc="This page you're on right now"
-          gitlink="https://github.com/tjaung/CryptoTradingBot"
+          gitlink="https://github.com/tjaung/portfolio"
           prevlink=""
           prevOption={0}
         />
