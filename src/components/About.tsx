@@ -42,7 +42,7 @@ const About = () => {
             Welcome to my page! I am an aspiring fullstack developer with a
             passion for building applications. I grew my interest with my past
             work experiences as a data scientist where I found that I enjoyed
-            the engineeering aspects the most. I've been self-teaching myself
+            the engineering aspects the most. I've been self-teaching myself
             software engineering through the Odin Project and I want to showcase
             my growth on this page.
           </div>
