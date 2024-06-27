@@ -15,6 +15,7 @@
 
 .portfolio-image {
   border-radius: 1.5rem;
+  max-height: 40%;
   overflow: hidden;
 }
 
@@ -22,8 +23,15 @@
   margin: 1.2rem 0 2rem;
 }
 
+.portfolio-desc {
+  margin: 1.2rem 0 1rem;
+  font-size: 0.85rem;
+}
+
 .portfolio-item-buttons {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
 }

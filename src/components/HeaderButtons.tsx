@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../assets/files/cv.txt";
+import CV from "../assets/files/Tim_Jaung_CV.pdf";
 
 const HeaderButtons = () => {
   return (

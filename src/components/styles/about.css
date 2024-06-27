@@ -4,7 +4,7 @@
 
 .about-container {
   display: grid;
-  grid-template-columns: 35% 50%;
+  grid-template-columns: 30% 55%;
   grid-gap: 15%;
   justify-content: center;
   align-items: center;

@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/nav.css";
 
 import { IoHomeOutline } from "react-icons/io5";
@@ -32,18 +31,18 @@ const Nav = (props: Props) => {
         <HiOutlineUserCircle />
       </a>
       <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        <CgBriefcase />
-      </a>
-      <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <IoFolderOpenOutline />
+      </a>
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
+      >
+        <CgBriefcase />
       </a>
       <a
         href="#contact"
