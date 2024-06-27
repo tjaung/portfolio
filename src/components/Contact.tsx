@@ -8,6 +8,7 @@ import emailjs from "emailjs-com";
 const Contact = () => {
   // const form = useRef();
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const sendEmail = (e: any) => {
     e.preventDefault();
 
