@@ -6,6 +6,7 @@ import me from "../assets/imgs/about_pic.jpg";
 import { FaRegLightbulb } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa6";
 import { VscDebugLineByLine } from "react-icons/vsc";
+import { MdOutlineSchool } from "react-icons/md";
 // interface Props {
 //   activeNav: string;
 //   setActiveNav: (activeNav: string) => void;
@@ -36,6 +37,11 @@ const About = () => {
             icon={<VscDebugLineByLine />}
             title="2023"
             desc="Began the Odin Project and created most projects on this page"
+          />
+          <SmallCard
+            icon={<MdOutlineSchool />}
+            title="2024"
+            desc="Fall 2024 attending Northeastern for CS"
           />
           <div className="about-description-text">
             Welcome to my page! I am an aspiring fullstack developer with a

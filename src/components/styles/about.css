@@ -4,7 +4,7 @@
 
 .about-container {
   display: grid;
-  grid-template-columns: 30% 55%;
+  grid-template-columns: 25% 60%;
   grid-gap: 15%;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@
 
 .about-desc-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
 }
 
@@ -23,6 +23,15 @@
 
 @media screen and (max-width: 1024px) {
   .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-desc-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
